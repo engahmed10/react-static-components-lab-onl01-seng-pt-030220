@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-
-class App extends Component {
+import CatComponent from './CatComponent'
+import GraceHopperQuoteComponent from './GraceHopperQuoteComponent'
+import MouseComponent from './MouseComponent'
+class App extends React.Component {
 	render() {
 		// your code in the return statement below!
+
 		return (
 			<div className="App">
-				<CatComponent />
-				<GraceHopperQuoteComponent />
+				<CatComponent/>
+				<GraceHopperQuoteComponent/>
+				<MouseComponent/>
 				{/* one more component missing */}
 			</div>
 		);
@@ -14,3 +18,5 @@ class App extends Component {
 }
 
 export default App;
+
+
